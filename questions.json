@@ -1,0 +1,20 @@
+[
+    {
+        "question": "What date is Halloween traditionally celebrated around the world?",
+        "answer_options": ["October 31st", "October 30th", "October 29th", "November 1st"],
+        "correct_answer": "October 31st",
+        "level": "easy"
+    },
+    {
+        "question": "Which classic horror movie features a serial killer named Michael Myers?",
+        "answer_options": ["Friday the 13th", "the Texas Chainsaw Massacre", "A Nightmare on Elm Street", "Halloween"],
+        "correct_answer": "Halloween",
+        "level": "medium"
+    },
+    {
+        "question": "Which ancient Celtic festival is believed to have inspired Halloween?",
+        "answer_options": ["Samhain", "Beltane", "Lughnasadh", "Imbolc"],
+        "correct_answer": "Samhain",
+        "level": "hard"
+    }
+]
