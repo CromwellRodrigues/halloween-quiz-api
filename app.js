@@ -16,9 +16,7 @@ app.use(helmet());
 
 const port = 3001;
 
-app.get("/", (req, res) => {
-  res.send("Welcome to the Halloween Quiz Trivia");
-});
+
 
 
 // endpoint to get quiz data 
@@ -26,9 +24,11 @@ app.get("/", (req, res) => {
 app. get("/quiz", (req,res) => {
   res.json(questions)
 })
-
+app.get("/", (req, res) => {
+  res.send("Welcome to the Halloween Quiz Trivia");
+});
 
   app.listen(port, () => {
-    console.log(`Server is running on http://localhost ${port}`)
+    console.log(`Server is running on http://localhost:${port}`)
   });
 
